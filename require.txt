@@ -1,0 +1,55 @@
+# requirements.txt
+
+### Core Libraries ###
+pandas
+scikit-learn
+numpy
+ipykernel
+setuptools
+wheel
+openpyxl
+cython
+
+### PDF Processing ###
+pymupdf
+pdf2image
+pdfminer.six
+camelot-py[cv]
+tabula-py
+ghostscript
+pdfplumber
+
+### Machine Learning & Deep Learning ###
+tensorflow
+torch==2.0.1
+torchvision==0.15.2
+torchaudio==2.0.2
+onnx
+ultralytics
+# Removing spacy as it might depend on tokenizers
+# spacy
+# Removed all Hugging Face related libraries
+# huggingface-hub
+# transformers==4.36.2
+# sentence-transformers==2.2.2
+faiss-cpu
+
+### Image Processing & OCR ###
+opencv-python
+easyocr
+pytesseract
+pillow
+
+### Vector DB & Chat Integration ###
+# Removed chromadb due to connection issues
+# chromadb
+ollama
+
+### Compatibility & Typing ###
+pydantic
+typing_extensions
+
+# Additional networking dependencies
+certifi
+urllib3
+requests>=2.32.3
